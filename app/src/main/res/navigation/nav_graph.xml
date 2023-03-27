@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.myshopping.ui.homepage.HomePageFragment"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/homeToHistory"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.myshopping.ui.historypage.HistoryPageFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/toHistoryDetail"
+            app:destination="@id/historyDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyDetailFragment"
+        android:name="com.example.myshopping.ui.historydetail.HistoryDetailFragment"
+        android:label="fragment_history_detail"
+        tools:layout="@layout/fragment_history_detail" >
+        <argument
+            android:name="completeDate"
+            app:argType="string"/>
+    </fragment>
+</navigation>

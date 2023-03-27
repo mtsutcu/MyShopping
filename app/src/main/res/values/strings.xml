@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Shopping</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="add">ADD</string>
+    <string name="complete">COMPLETE</string>
+    <string name="addItem">Add Item</string>
+    <string name="enterItem">Enter Item</string>
+    <string name="login">LOGIN</string>
+    <string name="history">History</string>
+    <string name="biometricTitle">Biometric login "for" \"My Shopping\"</string>
+    <string name="biometricSubTitle">Authenticate to open My Shopping.</string>
+    <string name="empty">Empty</string>
+    <string name="deleted">Deleted</string>
+</resources>

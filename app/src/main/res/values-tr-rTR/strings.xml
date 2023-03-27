@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Shopping</string>
+    <string name="add">EKLE</string>
+    <string name="complete">TAMAMLANDI</string>
+    <string name="addItem">Ürün Ekle</string>
+    <string name="enterItem">Ürün Girin</string>
+    <string name="login">GİRİŞ</string>
+    <string name="history">Geçmiş</string>
+    <string name="biometricTitle">\"My Shopping\" için biometrik giriş</string>
+    <string name="biometricSubTitle">My Shopping\'i açmak için kimlik doğrulaması yapın.</string>
+    <string name="empty">Boş</string>
+    <string name="deleted">Silindi</string>
+
+
+</resources>
